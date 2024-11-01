@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Prova Infinity</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Prova DOM 1</h1>
+
+        <h2>Conversor de Metros para Unidades Imperiais</h2>
+        <label for="metros">Distância em metros:</label>
+        <input type="number" name="metros" id="metros" placeholder="Digite os metros"> <br>
+    
+        <label for="unidade">Converter para:</label>
+        <select id="unidade">
+            <option></option>
+            <option value="jarda">Jarda</option>
+            <option value="pe">Pé</option>
+            <option value="polegada">Polegada</option>
+            <option value="milha">Milha</option>
+        </select> <br>
+
+        <button id="converter">Converter</button>
+        
+        <h2 id="resultado"></h2>
+    </div>
+    
+   <script src="./script.js"></script>
+</body>
+</html>
